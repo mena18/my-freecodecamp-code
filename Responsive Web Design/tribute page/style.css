@@ -1,0 +1,55 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+body {
+  font-family: sans-serif;
+}
+#title {
+  text-align:center;
+  margin-top:20px;
+}
+
+#img-div {
+  text-align: center;
+  margin:20px 0px 100px 0px;
+}
+
+
+#image{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+ul {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+li {
+  margin: 16px 0;
+  line-height:25px;
+}
+
+
+
+footer{
+  text-align:center;
+  background-color:gray;
+  height:50px;
+  margin:0px;
+  padding:0px;
+}
+
+a{
+  color:white;
+  text-decoration:none;
+  font-size:30px;
+  transition:0.5s;
+}
+a:hover{
+  color:#090171;
+}
