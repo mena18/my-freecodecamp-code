@@ -1,0 +1,59 @@
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  text-align: center;
+  font-size:20px;
+}
+
+h1 {
+  color: blue;
+}
+
+form {
+  text-align: left;
+  margin: auto;
+  width: 700px;
+  padding: 40px 60px;
+  background-color: rgb(11 76 118);
+  color: white;
+  font-weight: bold;
+}
+
+.form-group {
+  padding: 10px 0px;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  padding-bottom: 10px;
+}
+
+#name,
+#email,
+#number {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#submit {
+  width: 100%;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+#dropdown {
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.form-group textarea {
+  width: 100%;
+}
+select {
+  border-radius: 10px;
+}
